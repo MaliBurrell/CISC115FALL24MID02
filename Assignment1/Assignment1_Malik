@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    double age = 28.2248713; 
+    int realAge = (int)age;
+    /* Data type for my age
+        
+
+    float heightOne = 3.8; 
+    float subtractHeight = 1.0;
+    double heightTwo = heightOne + 3;
+    double finalHeight = heightTwo - subtractHeight;
+    //multiple yet simple implicit type conversion for my height 
+
+    int roundedHeight = (int)finalHeight;
+    
+
+    char grade = 'B';
+    //Data type for my grade
+
+    string fullName = "Malik Burrell";
+    //Data type for my name
+
+    cout<< "My name is " <<fullName<< "." <<endl;
+    cout<< "I have used C++, but I have not passed it." <<endl;
+    cout<< "I am " <<realAge<< " years old and currently a freshman." <<endl;
+    cout<< "My height is " << finalHeight << "." <<endl;
+    cout<< "At the end of the semester, I hope to obtain an " << grade << " in this class." <<endl;
+    cout<< "Rounded height: " <<roundedHeight<< "." <<endl;
+    cout<< "Age:  " << age << "." <<endl;
